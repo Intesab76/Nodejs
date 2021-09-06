@@ -1,0 +1,19 @@
+
+###
+GET http://localhost:5000/user
+###
+
+POST  http://localhost:5000/user
+
+
+Content-Type: 'application/json'
+
+{
+    "name":"abc",
+    "email":"123@gmail.com",
+    "mobile":"12345",
+    "password":"123erty",
+    "confirmpass" : "123erty"
+    
+}
+
